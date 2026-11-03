@@ -1,0 +1,44 @@
+{
+	always_invisible: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "smp_vies"
+	group: "22D96B75FBCDC067"
+	icon: {
+		count: 1
+		id: "minecraft:totem_of_undying"
+	}
+	id: "2BB6D8C0310777E1"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["20A6399DB2CD0B1E", "493C9FC0DAD72513"]
+			hide_until_deps_complete: true
+			id: "0D52C44DDE912CD1"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "1E4E857D922EF383"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "32D2E62FC0C43E9B"
+					item: {
+						count: 1
+						id: "smpcore:revive_kit"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

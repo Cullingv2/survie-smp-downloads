@@ -1,0 +1,102 @@
+{
+	always_invisible: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "smp_economie"
+	group: "22D96B75FBCDC067"
+	icon: {
+		count: 1
+		id: "smpcore:shop"
+	}
+	id: "698B069FA8917108"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3563CEA37ABEED47", "01CFF1FD020F2969"]
+			hide_until_deps_complete: true
+			id: "7977D416F06FE4F0"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "4806283DA765FAA8"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 64L
+					id: "6D33F1418845A53A"
+					item: {
+						count: 1
+						id: "minecraft:wheat"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01CFF1FD020F2969"]
+			hide_until_deps_complete: true
+			icon: {
+				count: 1
+				id: "minecraft:writable_book"
+			}
+			id: "431BC0D337924BF2"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 10"
+					feedback_message: "§e+10 Éclats"
+					id: "52288040F935EB68"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "55E983BAD575AE6E"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["78A61E51C276BD3B", "3FAE4BABF6E52F12"]
+			hide_until_deps_complete: true
+			id: "12EBD09C12A61552"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "3CEE4887CE7067C5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "5B64579DA27DE639"
+					item: {
+						count: 1
+						id: "smpcore:shop"
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,46 @@
+{
+	always_invisible: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "smp_nether"
+	group: "22D96B75FBCDC067"
+	icon: {
+		count: 1
+		id: "minecraft:netherrack"
+	}
+	id: "59A1FC3FAA451A35"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["493C9FC0DAD72513"]
+			hide_until_deps_complete: true
+			icon: {
+				count: 1
+				id: "minecraft:netherrack"
+			}
+			id: "4732C70B3160F13F"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "578F7CF4ACCEC3F1"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					id: "4E0FC5CEFDBC862F"
+					type: "dimension"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+}

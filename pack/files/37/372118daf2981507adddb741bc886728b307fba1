@@ -1,0 +1,373 @@
+{
+	always_invisible: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "smp_progression"
+	group: "22D96B75FBCDC067"
+	icon: {
+		count: 1
+		id: "minecraft:iron_pickaxe"
+	}
+	id: "3AD9B2955E321405"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2856E1576ABF1567"]
+			hide_until_deps_complete: true
+			icon: {
+				count: 1
+				id: "minecraft:oak_log"
+			}
+			id: "606EFD9D8E9E3F36"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "6DC434CD2D0DA0F5"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 32L
+					id: "15E059AC496FC631"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:logs)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["606EFD9D8E9E3F36"]
+			hide_until_deps_complete: true
+			id: "56916295B69DFAFB"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "5F6D843F80FE4AA3"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "3AB561EA79C67296"
+					item: {
+						count: 1
+						id: "minecraft:crafting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["606EFD9D8E9E3F36"]
+			hide_until_deps_complete: true
+			id: "67844127009A890D"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "501245FFB01A2A06"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "65C65733D8C4ACD6"
+					item: {
+						count: 1
+						id: "minecraft:furnace"
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56916295B69DFAFB"]
+			hide_until_deps_complete: true
+			icon: {
+				count: 1
+				id: "minecraft:red_bed"
+			}
+			id: "3938DFA04B4E28BC"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "634828578B7488EE"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "64A8B806B902EF1E"
+					item: {
+						components: {
+							"ftbfiltersystem:filter": "ftbfiltersystem:item_tag(minecraft:beds)"
+						}
+						count: 1
+						id: "ftbfiltersystem:smart_filter"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["56916295B69DFAFB"]
+			hide_until_deps_complete: true
+			icon: {
+				count: 1
+				id: "minecraft:wheat_seeds"
+			}
+			id: "3563CEA37ABEED47"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "7A2424DAFA270707"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					advancement: "minecraft:husbandry/plant_seed"
+					criterion: ""
+					id: "20FDFF4AFDF6232D"
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["67844127009A890D"]
+			hide_until_deps_complete: true
+			id: "3FAE4BABF6E52F12"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "36CAEA735B0C3428"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					count: 16L
+					id: "0E66B46ABF1A5DA2"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FAE4BABF6E52F12"]
+			hide_until_deps_complete: true
+			icon: {
+				count: 1
+				id: "minecraft:iron_chestplate"
+			}
+			id: "3B1F91BA4F06D6DF"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "0CD164EF2DDD7322"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "2D52E993EB9CA69D"
+					item: {
+						count: 1
+						id: "minecraft:iron_helmet"
+					}
+					type: "item"
+				}
+				{
+					id: "15D0F764A09002C0"
+					item: {
+						count: 1
+						id: "minecraft:iron_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "717383F67B4CD6D5"
+					item: {
+						count: 1
+						id: "minecraft:iron_leggings"
+					}
+					type: "item"
+				}
+				{
+					id: "589186A37B206447"
+					item: {
+						count: 1
+						id: "minecraft:iron_boots"
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3FAE4BABF6E52F12"]
+			hide_until_deps_complete: true
+			id: "455FDBBF2E6CAA0A"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "527A73046741B77D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "0ABC322E09D4FFC8"
+					item: {
+						count: 1
+						id: "minecraft:shield"
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3B1F91BA4F06D6DF"]
+			hide_until_deps_complete: true
+			id: "493C9FC0DAD72513"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "2ED0850E29692C13"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "diamond"
+			tasks: [
+				{
+					count: 3L
+					id: "5DBDB6E8AA5A1213"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["493C9FC0DAD72513"]
+			hide_until_deps_complete: true
+			id: "2D2DD79B46BC0DB9"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "7D9459D84A81817D"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "799D0B94F7573441"
+					item: {
+						count: 1
+						id: "minecraft:enchanting_table"
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3938DFA04B4E28BC"]
+			hide_until_deps_complete: true
+			icon: {
+				count: 1
+				id: "minecraft:shield"
+			}
+			id: "1C2C6C91E4596CB8"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 10"
+					feedback_message: "§e+10 Éclats"
+					id: "651891D8FC3E97DC"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			size: 1.5d
+			tasks: [
+				{
+					id: "61B7610EA0C46896"
+					type: "checkmark"
+				}
+			]
+			x: 5.0d
+			y: 5.0d
+		}
+	]
+}

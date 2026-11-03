@@ -1,0 +1,99 @@
+{
+	always_invisible: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "smp_premiers_pas"
+	group: "22D96B75FBCDC067"
+	icon: {
+		count: 1
+		id: "minecraft:oak_sapling"
+	}
+	id: "67777B05D711052B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: {
+				count: 1
+				id: "ftbquests:book"
+			}
+			id: "5E15A0C380606F82"
+			optional: true
+			size: 2.0d
+			tasks: [
+				{
+					id: "6E50241CEBADC13A"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:red_dye"
+			}
+			id: "20A6399DB2CD0B1E"
+			optional: true
+			shape: "heart"
+			size: 1.5d
+			tasks: [
+				{
+					id: "0BFFA5DA44EC2EFC"
+					type: "checkmark"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:gold_ingot"
+			}
+			id: "01CFF1FD020F2969"
+			optional: true
+			tasks: [
+				{
+					id: "65A68142F2C00B23"
+					type: "checkmark"
+				}
+			]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:chest"
+			}
+			id: "78A61E51C276BD3B"
+			optional: true
+			tasks: [
+				{
+					id: "56F95AD054FA390C"
+					type: "checkmark"
+				}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			icon: {
+				count: 1
+				id: "minecraft:compass"
+			}
+			id: "2856E1576ABF1567"
+			optional: true
+			tasks: [
+				{
+					id: "600365E3774FC526"
+					type: "checkmark"
+				}
+			]
+			x: 0.0d
+			y: 2.5d
+		}
+	]
+}

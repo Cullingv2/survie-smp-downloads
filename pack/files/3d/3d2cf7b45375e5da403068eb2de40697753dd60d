@@ -1,0 +1,74 @@
+{
+	always_invisible: false
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "smp_exploration"
+	group: "22D96B75FBCDC067"
+	icon: {
+		count: 1
+		id: "minecraft:compass"
+	}
+	id: "53B0564750445D10"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3938DFA04B4E28BC"]
+			hide_until_deps_complete: true
+			icon: {
+				count: 1
+				id: "minecraft:bell"
+			}
+			id: "57113540292127E0"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "0B15A24364A18725"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "17B3DFEAEC93BA3B"
+					structure: "#minecraft:village"
+					type: "structure"
+				}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FAE4BABF6E52F12"]
+			hide_until_deps_complete: true
+			icon: {
+				count: 1
+				id: "minecraft:rail"
+			}
+			id: "2989309433BA5B90"
+			optional: true
+			rewards: [
+				{
+					command: "/smp eco give {p} 20"
+					feedback_message: "§e+20 Éclats"
+					id: "2499E27AAAC8F05E"
+					permission_level: 2
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "155D8868CD9C5FE6"
+					structure: "#bettermineshafts:better_mineshafts"
+					type: "structure"
+				}
+			]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+}

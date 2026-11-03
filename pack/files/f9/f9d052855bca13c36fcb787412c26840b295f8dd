@@ -1,0 +1,15 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "smp_maitre"
+	group: "22D96B75FBCDC067"
+	icon: {
+		count: 1
+		id: "minecraft:nether_star"
+	}
+	id: "4EF429C320E5DDCE"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+}
